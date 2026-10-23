@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Formal Verification — Zero Cool</title>
+  <meta name="description" content="Prove what matters. Find what doesn't.">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <script>try{if(localStorage.getItem("zc-theme")==="light")document.documentElement.setAttribute("data-theme","light")}catch(e){}</script>
+</head>
+<body data-root="../">
+  <canvas id="plasma" class="plasma" aria-hidden="true"></canvas>
+  <div class="grain"></div>
+  <div class="vignette"></div>
+  <div class="glow"></div>
+  <header class="nav">
+    <a class="brand" href="../index.html"><span class="star" data-star></span>Zero Cool</a>
+    <div class="nav-desktop">
+      <ul class="nav-links">
+        <li class="svc" data-services>
+          <button class="svc-btn" type="button" aria-expanded="false">Services
+            <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 4.5l3 3 3-3"/></svg>
+          </button>
+          <div class="menu">
+            <a href="../services/defi.html">DeFi</a>
+            <a href="../services/bridges.html">Bridges</a>
+            <a href="../services/l2-infrastructure.html">L2 Infrastructure</a>
+            <a href="../services/formal-verification.html">Formal Verification</a>
+          </div>
+        </li>
+        <li><a href="../index.html#engagement">Engagement</a></li>
+        <li><a href="../docs.html">Docs</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch to light theme"></button>
+        <a class="btn btn-ghost" href="https://app.zerocool.ai/intake" target="_blank" rel="noopener noreferrer">Request Demo</a>
+      </div>
+    </div>
+    <div class="nav-mobile">
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch to light theme"></button>
+      <button class="burger" type="button" data-burger aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <div class="mobile-panel" data-panel>
+    <a href="../services/defi.html">DeFi</a>
+    <a href="../services/bridges.html">Bridges</a>
+    <a href="../services/l2-infrastructure.html">L2 Infrastructure</a>
+    <a href="../services/formal-verification.html">Formal Verification</a>
+    <a href="../index.html#engagement">Engagement</a>
+    <a href="../docs.html">Docs</a>
+    <a href="../about.html">About</a>
+    <a href="https://app.zerocool.ai/intake" target="_blank" rel="noopener noreferrer">Request Demo</a>
+  </div>
+  <main><section class="page"><div class="wrap">
+    <div class="kicker"><i>//</i> Services / Formal Verification</div>
+    <h1 class="h-section">Prove what matters. Find what doesn't.</h1>
+    <p class="lede">Some bugs are hard to find by review or by fuzzing: the ones that only appear in specific state combinations, the ones that violate an invariant nobody thought to write down, the ones in math-heavy contracts where precision matters more than execution path coverage. Formal verification is how serious protocols prove these properties hold for every possible input, not just the ones that came up in testing.</p><p class="lede">The cost of formal methods has historically been the bottleneck: writing specs, mapping invariants to provers, debugging counter-examples. The protocols that invest in it anyway are the ones that don't get exploited the way DeFi did in 2022 and 2023.</p>
+  </div></section>
+  <section class="section"><div class="wrap">
+    <div class="kicker"><i>//</i> Attack surface</div>
+    <h2 class="h-section">Properties worth proving.</h2>
+    <div class="threats"><article class="threat reveal"><b>01</b><div><h3>Accounting invariants</h3><p>Total supply, share-to-asset relationships, and value-preservation properties that must hold across every state transition. Proof beats coverage when money is on the line.</p></div></article><article class="threat reveal"><b>02</b><div><h3>Access control</h3><p>Who can call what under which conditions, expressed as provable properties rather than tested code paths. Tests confirm what you remembered to check; proofs confirm everything else too.</p></div></article><article class="threat reveal"><b>03</b><div><h3>Math-heavy contracts</h3><p>Pricing curves, AMM math, and compound interest where edge cases hide in bounds. Proving the math means catching what fuzzing won't reach.</p></div></article><article class="threat reveal"><b>04</b><div><h3>State machines</h3><p>Lifecycle transitions in protocols where invalid sequences must be impossible, not just unhandled. Liveness and safety as proven properties.</p></div></article><article class="threat reveal"><b>05</b><div><h3>Integration contracts</h3><p>Properties about how your protocol behaves when called by arbitrary external code, invariants that can't be confirmed by reviewing your contracts in isolation.</p></div></article><article class="threat reveal"><b>06</b><div><h3>Cryptographic protocols</h3><p>Signature schemes, hash chains, and Merkle proofs where correctness depends on assumptions about underlying primitives.</p></div></article></div>
+  </div></section>
+  <section class="section"><div class="wrap">
+    <h2 class="h-section">Built by ex-Certora researchers.</h2>
+    <p class="copy">Both founders were Lead Security Researchers at Certora, the team behind one of the industry's leading formal verification platforms. The work they did there, helping protocols write specs that actually catch bugs, is the same work the agents now help orchestrate. Formal verification is a craft. Zero Cool encodes the craft into how its agents pick properties, structure proofs, and reason about counter-examples.</p>
+  </div></section>
+    <section class="join" id="join">
+      <div class="star" data-star></div>
+      <div class="wordmark"><span>ZERO</span> <span class="out">COOL</span></div>
+      <h2>Find what others<br><em>miss</em></h2>
+      <p class="copy">For protocol teams and security leaders who want exploit-grade coverage backed by proof, not promises.</p>
+      <a class="btn btn-solid btn-lg" href="https://app.zerocool.ai/intake" target="_blank" rel="noopener noreferrer">Request a demo</a>
+    </section>
+  </main>
+  <footer class="foot"><div class="wrap"><span>© 2026 Zero Cool</span><nav>
+    <a href="../docs.html">Docs</a>
+    <a href="../privacy.html">Privacy</a>
+    <a href="../terms.html">Terms</a>
+    <a href="../subprocessors.html">Subprocessors</a>
+    <a href="mailto:sales@zerocool.ai?subject=Demo Request">Contact</a>
+  </nav></div></footer>
+  <script src="../js/main.js"></script>
+</body>
+</html>

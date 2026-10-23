@@ -1,0 +1,287 @@
+← BACK
+PRIVACY POLICY
+
+Last updated: July 21, 2026
+
+This Privacy Policy explains how Zero Cool Labs (“Zero Cool”), a Nevada corporation, collects, uses, discloses, and protects personal information in connection with zerocool.ai, the Zero Cool platform and portal, our APIs, scans, findings, reports, communications, and related services collectively referred to as the “Services.” Zero Cool™ is a trademark of Zero Cool Labs (U.S. trademark application pending).
+
+This Privacy Policy applies to personal information handled by Zero Cool. Customer source code, repositories, files, security context, and other materials submitted through the Services are also governed by our Terms of Service and any applicable subscription agreement, order form, statement of work, or other written agreement. If a signed agreement conflicts with this Privacy Policy, the signed agreement controls for the applicable Services.
+
+1. NOTICE AT COLLECTION
+
+Depending on how you interact with Zero Cool, we may collect the following categories of personal information:
+
+Account and identity information, such as your name, email address, organization, role, authentication-provider identifier, source-control identity, and authorized-user status.
+Integration information, such as repository identifiers, source-control installation information, and authentication tokens or credentials needed to connect systems you authorize.
+Commercial and billing information, such as requested Services, subscription information, credit usage, orders, invoices, billing contacts, payment status, and transaction records.
+Internet and technical information, such as IP address, browser and device information, session information, login history, pages or features used, API activity, timestamps, diagnostics, and security logs.
+Customer Materials and security-review information, such as repositories, source code, files, instructions, repository metadata, scan context, findings, reports, code excerpts, and other information submitted for review.
+Communications, such as demo requests, sales communications, support requests, feedback, and other messages sent to Zero Cool.
+
+We use this information to provide, secure, support, administer, and improve the Services; authenticate users; connect authorized systems; conduct scans; deliver findings and reports; communicate with customers; process billing; prevent misuse; and comply with legal obligations.
+
+We do not sell personal information or share personal information for cross-context behavioral advertising or targeted advertising.
+
+Retention depends on the type of information and why it was collected. Source-code retention is described in Section 5.
+
+2. INFORMATION WE COLLECT
+
+Information you provide
+
+We collect information you provide when you:
+
+Request a demo or contact us.
+Create or administer an account.
+Join an organization’s workspace.
+Connect a repository, source-control account, or other integration.
+Initiate or configure a scan.
+Submit source code, files, instructions, context, or other Customer Materials.
+Purchase or use Services.
+Communicate with sales, billing, support, or other Zero Cool personnel.
+Provide feedback or participate in testing.
+
+Information collected automatically
+
+When you use the Services, we and our providers may automatically collect technical and usage information, including:
+
+IP address and approximate location derived from it.
+Browser, operating system, and device information.
+Login, authentication, and session information.
+Pages, features, and actions used.
+API requests, timestamps, response status, and related operational metadata.
+Error reports, diagnostics, performance information, and security events.
+Cookie and similar-technology information described in Section 8.
+
+Information from other sources
+
+We may receive information from:
+
+Authentication and source-control providers.
+Repository and software-development integrations.
+Your employer, organization, workspace administrator, or authorized users.
+Infrastructure, billing, communications, and security providers.
+Public sources where relevant to a requested security review.
+Referral partners or other parties that introduce you to Zero Cool.
+
+3. HOW WE USE PERSONAL INFORMATION
+
+We may use personal information to:
+
+Create, authenticate, maintain, and secure accounts and workspaces.
+Verify permissions and manage authorized users.
+Connect repositories and integrations you authorize.
+Conduct security scans and analyze Customer Materials.
+Generate, verify, deliver, and retain findings and reports.
+Provide portal and API functionality.
+Process subscriptions, credits, orders, invoices, and payments.
+Respond to sales, billing, support, security, and legal communications.
+Diagnose errors and maintain the availability and performance of the Services.
+Detect, prevent, investigate, and respond to fraud, abuse, unauthorized access, security incidents, and violations of our agreements.
+Understand usage and improve the Services.
+Develop aggregated or de-identified analytics and derived signals.
+Enforce our agreements and protect Zero Cool, our customers, and others.
+Comply with legal, regulatory, tax, accounting, and reporting obligations.
+Carry out another purpose disclosed when the information is collected or authorized by you.
+
+4. ORGANIZATION ACCOUNTS
+
+When you use the Services through an organization:
+
+The organization may control your account or workspace access.
+Workspace administrators may view and manage authorized users, repositories, scans, reports, usage, and account activity.
+Information associated with your professional account may remain available to the organization after your individual access ends.
+Your organization’s agreement with Zero Cool may govern how information in its workspace is handled.
+
+Questions regarding access to an organization-controlled account should generally be directed to that organization’s administrator.
+
+5. CUSTOMER MATERIALS AND SOURCE CODE
+
+“Customer Materials” include source code, repositories, files, instructions, data, context, and other materials submitted, connected, or made available through the Services.
+
+Customers retain their rights in Customer Materials. Zero Cool and its providers process Customer Materials only as needed to provide, secure, support, maintain, and administer the Services and as otherwise authorized by the customer.
+
+Source code may be processed during a scan, including through third-party infrastructure and model providers. Zero Cool does not retain a complete source-code repository or standalone source-code copy after the applicable scan is complete. Findings and reports may retain limited code excerpts needed to explain a vulnerability, result, or recommendation.
+
+Zero Cool may retain findings, reports, repository metadata, scan configuration, usage and API logs, billing records, and communications as needed to provide and administer the Services.
+
+Zero Cool will not use customer source code to train or fine-tune models for use across customers unless the customer affirmatively opts in through a written agreement, account setting, or other written authorization.
+
+We may use feedback, usage information, and aggregated or de-identified findings, outputs, and derived signals to evaluate and improve the Services, provided that this information does not include customer source code, identify the customer, or reveal customer confidential information.
+
+We do not authorize our providers to use customer source code to train or fine-tune models for their own purposes unless the customer has expressly opted in to that use.
+
+Customers should not submit personal information, passwords, private keys, production secrets, government identifiers, health information, or other sensitive information unless it is reasonably necessary for the requested review and they are authorized to provide it.
+
+6. HOW WE DISCLOSE INFORMATION
+
+We may disclose information to the following categories of recipients:
+
+Service providers
+
+We use providers that support functions such as:
+
+Cloud hosting and infrastructure.
+AI and model processing.
+Authentication and source-control integrations.
+Database, storage, and security operations.
+Email and other communications.
+Billing, payment, accounting, and financial administration.
+Customer support, analytics, diagnostics, and monitoring.
+Legal, tax, insurance, and professional services.
+
+These providers may process information only as needed to perform services for Zero Cool and are subject to contractual, confidentiality, security, or data-handling obligations appropriate to their role.
+
+Customer-directed integrations
+
+We disclose information when you or your organization direct us to connect the Services to a repository, source-control provider, API, communication service, or other third-party integration. The third party’s own terms and privacy policy may also apply.
+
+Your organization
+
+We may disclose account, workspace, repository, scan, report, and usage information to administrators and authorized users of the organization associated with your account.
+
+Legal and safety matters
+
+We may disclose information when we reasonably believe disclosure is necessary to:
+
+Comply with law, regulation, legal process, or a valid government request.
+Protect the rights, property, or safety of Zero Cool, our customers, or others.
+Investigate fraud, security incidents, unauthorized activity, or violations of our agreements.
+Establish, exercise, or defend legal claims.
+
+Where legally permitted, we will seek to limit the disclosure and provide appropriate notice.
+
+Business transactions
+
+Information may be disclosed as part of a merger, acquisition, financing, reorganization, bankruptcy, sale of assets, or similar transaction. Any recipient will be required to handle personal information consistently with applicable law and the commitments applicable to the information.
+
+With permission
+
+We may disclose information for another purpose when you or the applicable customer authorize us to do so.
+
+We do not sell personal information or disclose it to third parties for their own direct-marketing purposes.
+
+7. DE-IDENTIFIED AND AGGREGATED INFORMATION
+
+We may create aggregated or de-identified information that cannot reasonably be linked to an individual or customer. We may use and disclose that information for analytics, security research, benchmarking, service development, and other lawful purposes.
+
+We will not attempt to re-identify de-identified information except where necessary to test our de-identification methods or as permitted by law.
+
+8. COOKIES AND TRACKING TECHNOLOGIES
+
+The Services may use cookies and similar technologies for:
+
+Authentication and maintaining user sessions.
+Remembering settings and preferences.
+Security and fraud prevention.
+Load balancing and reliable operation.
+Diagnostics, performance measurement, and limited usage analytics.
+
+We do not use cookies or tracking technologies to conduct cross-context behavioral advertising.
+
+Where legally required, we will obtain consent before using non-essential cookies or similar technologies.
+
+Browsers may offer a “Do Not Track” setting, but there is no universally accepted standard for responding to it. Because Zero Cool does not use cross-site activity for behavioral advertising, a Do Not Track signal generally does not change our practices.
+
+We recognize the Global Privacy Control signal as a request to opt out of the sale or sharing of personal information where applicable. Zero Cool does not currently sell personal information or share it for cross-context behavioral advertising.
+
+Other parties may collect technical information when you interact with an authentication provider, source-control provider, integration, or external link. Their collection is governed by their own privacy policies.
+
+9. DATA RETENTION
+
+We retain information only for as long as reasonably necessary for the purposes described in this Privacy Policy, including to provide contracted access, maintain security, resolve disputes, enforce agreements, and comply with legal, tax, accounting, and recordkeeping obligations.
+
+Retention considerations include:
+
+The duration of the customer relationship or applicable Order.
+The period during which a customer is entitled to access findings or reports.
+Whether information is needed to maintain account or security records.
+Contractual confidentiality and deletion requirements.
+Applicable limitation periods and legal obligations.
+The sensitivity and volume of the information.
+The risk of harm from unauthorized use or disclosure.
+
+Complete source-code repositories and standalone source-code copies are not retained after the applicable scan is complete. Limited excerpts may remain in findings and reports.
+
+Account information, findings, reports, repository metadata, operational logs, billing information, and communications may be retained for longer periods where needed for the Services or legitimate business and legal purposes.
+
+When information is deleted, residual copies may remain temporarily in backups or disaster-recovery systems until overwritten through ordinary retention cycles.
+
+10. SECURITY
+
+Zero Cool uses reasonable administrative, technical, and organizational safeguards designed to protect information against unauthorized access, loss, misuse, alteration, or disclosure.
+
+No system or method of transmission is completely secure. Customers are responsible for protecting their credentials, API keys, integration tokens, and authorized-user access and for notifying Zero Cool promptly of suspected unauthorized access.
+
+Zero Cool will investigate confirmed security incidents and notify affected customers or individuals without undue delay where required by law or an applicable agreement.
+
+11. PRIVACY RIGHTS AND CHOICES
+
+Depending on where you live and applicable law, you may have the right to:
+
+Request confirmation of whether we process your personal information.
+Access or obtain a copy of your personal information.
+Correct inaccurate personal information.
+Request deletion of personal information.
+Request portability of information you provided.
+Object to or restrict certain processing.
+Opt out of the sale, sharing, or use of personal information for targeted advertising.
+Withdraw consent where processing is based on consent.
+Appeal a denial of a privacy request.
+Be free from unlawful discrimination for exercising a privacy right.
+Submit a complaint to an applicable privacy or data-protection authority.
+
+Zero Cool does not currently sell personal information or share it for cross-context behavioral advertising. Nevada residents may nevertheless submit a request directing Zero Cool not to sell covered information.
+
+To submit a privacy request, email legal@zerocool.ai and describe the request. We may ask for information needed to verify your identity, authority, account, or relationship with Zero Cool.
+
+You may use an authorized agent where permitted by law. We may require proof that the agent is authorized to act for you and may separately verify your identity.
+
+Certain information may be exempt from a request. For example, we may retain information needed to provide the Services, protect security, comply with law, maintain transaction records, exercise legal rights, or preserve another person’s rights.
+
+You may unsubscribe from non-essential marketing emails using the unsubscribe instructions in the message or by contacting us. Operational, billing, security, and account communications may still be sent when necessary.
+
+12. INFORMATION PROCESSED FOR CUSTOMERS
+
+For some Customer Materials, Zero Cool processes personal information on behalf of an organizational customer. In that situation, the customer determines why and how the information is processed, and Zero Cool acts as its service provider or processor.
+
+Requests concerning personal information contained in Customer Materials should generally be directed to the customer that submitted or controls those materials. We will assist customers with valid requests as required by applicable agreements and law.
+
+13. INTERNATIONAL USERS
+
+Zero Cool is based in the United States, and information may be processed and stored in the United States and other countries where our providers operate.
+
+For individuals in the European Economic Area, United Kingdom, or Switzerland, our legal bases for processing may include:
+
+Performing a contract or taking steps requested before entering a contract.
+Our legitimate interests in providing, securing, supporting, and improving the Services.
+Compliance with legal obligations.
+Consent, where we specifically request it.
+
+Where required, we use appropriate safeguards for international transfers or rely on another legally permitted transfer mechanism.
+
+Data-processing terms for an organizational customer may be addressed in the customer’s Order, subscription agreement, or separate data processing agreement.
+
+14. CHILDREN
+
+The Services are intended for business and professional use and are not directed to anyone under eighteen years old.
+
+We do not knowingly collect personal information from children. If we learn that a child has provided personal information, we will take reasonable steps to delete it.
+
+15. THIRD-PARTY SERVICES AND LINKS
+
+The Services may contain links to or integrations with third-party websites and services. Zero Cool does not control those third parties’ privacy or security practices.
+
+You should review the privacy policies of any third-party service you choose to use or connect.
+
+16. CHANGES TO THIS PRIVACY POLICY
+
+We may update this Privacy Policy from time to time.
+
+We will post the updated policy with a revised “Last Updated” date. Where required by law or appropriate based on the nature of the change, we may also provide notice through the Services, by email, or through another reasonable method.
+
+17. CONTACT
+
+Questions, complaints, and privacy requests may be sent to:
+
+Zero Cool Labs
+Email: legal@zerocool.ai

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bridge Auditing — Zero Cool</title>
+  <meta name="description" content="Bridges have lost more to exploits than any other category in crypto.">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <script>try{if(localStorage.getItem("zc-theme")==="light")document.documentElement.setAttribute("data-theme","light")}catch(e){}</script>
+</head>
+<body data-root="../">
+  <canvas id="plasma" class="plasma" aria-hidden="true"></canvas>
+  <div class="grain"></div>
+  <div class="vignette"></div>
+  <div class="glow"></div>
+  <header class="nav">
+    <a class="brand" href="../index.html"><span class="star" data-star></span>Zero Cool</a>
+    <div class="nav-desktop">
+      <ul class="nav-links">
+        <li class="svc" data-services>
+          <button class="svc-btn" type="button" aria-expanded="false">Services
+            <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 4.5l3 3 3-3"/></svg>
+          </button>
+          <div class="menu">
+            <a href="../services/defi.html">DeFi</a>
+            <a href="../services/bridges.html">Bridges</a>
+            <a href="../services/l2-infrastructure.html">L2 Infrastructure</a>
+            <a href="../services/formal-verification.html">Formal Verification</a>
+          </div>
+        </li>
+        <li><a href="../index.html#engagement">Engagement</a></li>
+        <li><a href="../docs.html">Docs</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch to light theme"></button>
+        <a class="btn btn-ghost" href="https://app.zerocool.ai/intake" target="_blank" rel="noopener noreferrer">Request Demo</a>
+      </div>
+    </div>
+    <div class="nav-mobile">
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch to light theme"></button>
+      <button class="burger" type="button" data-burger aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <div class="mobile-panel" data-panel>
+    <a href="../services/defi.html">DeFi</a>
+    <a href="../services/bridges.html">Bridges</a>
+    <a href="../services/l2-infrastructure.html">L2 Infrastructure</a>
+    <a href="../services/formal-verification.html">Formal Verification</a>
+    <a href="../index.html#engagement">Engagement</a>
+    <a href="../docs.html">Docs</a>
+    <a href="../about.html">About</a>
+    <a href="https://app.zerocool.ai/intake" target="_blank" rel="noopener noreferrer">Request Demo</a>
+  </div>
+  <main><section class="page"><div class="wrap">
+    <div class="kicker"><i>//</i> Services / Bridges</div>
+    <h1 class="h-section">Bridges have lost more to exploits than any other category in crypto.</h1>
+    <p class="lede">Ronin, Wormhole, Nomad, Multichain. Billions of dollars in losses, across the same category. The reason isn't sloppy code. It's that bridges combine the trust assumptions of two chains with message-validation logic almost nobody else writes. Every bridge invents its own threat model. That threat model gets audited fewer times than the contracts that use it.</p><p class="lede">Most audit firms treat bridges as smart contract audits: review the L1 contracts, sign off on the relayer interface, ship. The actual attack surface is the system.</p>
+  </div></section>
+  <section class="section"><div class="wrap">
+    <div class="kicker"><i>//</i> Attack surface</div>
+    <h2 class="h-section">Where the bugs hide.</h2>
+    <div class="threats"><article class="threat reveal"><b>01</b><div><h3>Signature verification</h3><p>Validator set rotation, threshold signing schemes, and key management flaws that let an attacker forge messages or replay them across chains.</p></div></article><article class="threat reveal"><b>02</b><div><h3>Message replay</h3><p>Cross-chain replay protection that breaks under reorganizations or message reordering. The same valid message executed twice drains funds.</p></div></article><article class="threat reveal"><b>03</b><div><h3>Asset accounting</h3><p>Lock-and-mint logic, supply tracking, and the path between chains where balances can drift if even one assumption is off.</p></div></article><article class="threat reveal"><b>04</b><div><h3>Async finality assumptions</h3><p>Source chain reorgs and finality gaps that let already-relayed messages get unwound, leaving funds minted on the destination but no longer locked at the source.</p></div></article><article class="threat reveal"><b>05</b><div><h3>Validator and oracle compromise</h3><p>Trust models that fail if a threshold of validators or oracles collude or get compromised. Most bridge security comes down to this assumption.</p></div></article><article class="threat reveal"><b>06</b><div><h3>Escape hatches and emergency procedures</h3><p>Mechanisms that exist to recover from failure but introduce new exploit paths if their authorization or sequencing is wrong.</p></div></article></div>
+  </div></section>
+  <section class="section"><div class="wrap">
+    <h2 class="h-section">Built by people who've audited cross-chain systems.</h2>
+    <p class="copy">Kurt Willis brings deep expertise in layer-2 infrastructure and bridge security from years at Trail of Bits, Spearbit, and Certora. Both founders have audited cross-chain protocols at Offbeat Security. The threat models they internalized — validator compromise, message forgery, async finality bugs, key management failure — are embedded in how the agents prioritize across the full bridge stack.</p>
+  </div></section>
+    <section class="join" id="join">
+      <div class="star" data-star></div>
+      <div class="wordmark"><span>ZERO</span> <span class="out">COOL</span></div>
+      <h2>Find what others<br><em>miss</em></h2>
+      <p class="copy">For protocol teams and security leaders who want exploit-grade coverage backed by proof, not promises.</p>
+      <a class="btn btn-solid btn-lg" href="https://app.zerocool.ai/intake" target="_blank" rel="noopener noreferrer">Request a demo</a>
+    </section>
+  </main>
+  <footer class="foot"><div class="wrap"><span>© 2026 Zero Cool</span><nav>
+    <a href="../docs.html">Docs</a>
+    <a href="../privacy.html">Privacy</a>
+    <a href="../terms.html">Terms</a>
+    <a href="../subprocessors.html">Subprocessors</a>
+    <a href="mailto:sales@zerocool.ai?subject=Demo Request">Contact</a>
+  </nav></div></footer>
+  <script src="../js/main.js"></script>
+</body>
+</html>

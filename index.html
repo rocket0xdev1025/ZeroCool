@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zero Cool — Autonomous Security Agents</title>
+  <meta name="description" content="Find exploit-grade vulnerabilities in your system before attackers do. Every finding ships with a working proof of concept.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>try{if(localStorage.getItem("zc-theme")==="light")document.documentElement.setAttribute("data-theme","light")}catch(e){}</script>
+</head>
+<body data-root="">
+  <canvas id="plasma" class="plasma" aria-hidden="true"></canvas>
+  <div class="grain"></div>
+  <div class="vignette"></div>
+  <div class="glow"></div>
+
+  <header class="nav">
+    <button class="brand" type="button" data-home aria-label="Scroll to top">
+      <span class="star" data-star></span>
+      Zero Cool
+    </button>
+    <div class="nav-desktop">
+      <ul class="nav-links">
+        <li class="svc" data-services>
+          <button class="svc-btn" type="button" aria-expanded="false" aria-haspopup="true">Services
+            <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 4.5l3 3 3-3"/></svg>
+          </button>
+          <div class="menu">
+            <a href="services/defi.html">DeFi</a>
+            <a href="services/bridges.html">Bridges</a>
+            <a href="services/l2-infrastructure.html">L2 Infrastructure</a>
+            <a href="services/formal-verification.html">Formal Verification</a>
+          </div>
+        </li>
+        <li><a href="#engagement">Engagement</a></li>
+        <li><a href="docs.html">Docs</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch to light theme"></button>
+        <a class="btn btn-ghost" href="https://app.zerocool.ai/intake" target="_blank" rel="noopener noreferrer">Request Demo</a>
+      </div>
+    </div>
+    <div class="nav-mobile">
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch to light theme"></button>
+      <button class="burger" type="button" data-burger aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-panel" data-panel>
+    <button class="linkish" type="button" data-toggle-sub>Services</button>
+    <div class="mobile-sub">
+      <a href="services/defi.html">DeFi</a>
+      <a href="services/bridges.html">Bridges</a>
+      <a href="services/l2-infrastructure.html">L2 Infrastructure</a>
+      <a href="services/formal-verification.html">Formal Verification</a>
+    </div>
+    <a href="#engagement">Engagement</a>
+    <a href="docs.html">Docs</a>
+    <a href="about.html">About</a>
+    <a href="https://app.zerocool.ai/intake" target="_blank" rel="noopener noreferrer">Request Demo</a>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-stage">
+        <h1 class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Zero Cool — Autonomous Security Agents</h1>
+        <div class="mega mega-zero">ZERO</div>
+        <div class="rule">
+          <div class="line"></div>
+          <div class="dot"></div>
+          <span class="label">SYS.ACTIVE</span>
+          <span class="star" data-star></span>
+          <span class="label">V2.1.0</span>
+          <div class="dot"></div>
+          <div class="line right"></div>
+        </div>
+        <div class="mega mega-cool">COOL</div>
+        <div class="hero-mobile-tag"><span class="tag">Autonomous Security</span><span class="tag"><em>Agents V2</em></span></div>
+      </div>
+      <div class="hero-foot">
+        <div class="hero-copy">
+          <p>Find exploit-grade vulnerabilities in your system before attackers do. Every finding ships with a working proof of concept.</p>
+          <a class="btn btn-solid" href="https://app.zerocool.ai/intake" target="_blank" rel="noopener noreferrer">Request Demo</a>
+          <p class="fine">Built by security researchers from Trail of Bits · Spearbit · Certora</p>
+        </div>
+        <div class="hero-desk-tag"><span class="tag">Autonomous Security</span><span class="tag"><em>Agents V2</em></span></div>
+      </div>
+    </section>
+
+    <section class="trust">
+      <div class="wrap">
+        <div class="trust-box reveal">
+          <p>Trusted by leading protocols</p>
+          <div class="logos"><span>Blockstream</span><span>Yearn Finance</span><span>Nerite</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="the-problem">
+      <div class="wrap">
+        <div class="kicker"><i>//</i> The Problem</div>
+        <h2 class="h-section">Security can't keep up.</h2>
+        <div class="stats">
+          <div class="stat reveal"><div class="num">$2B+</div><p>drained from smart contract exploits in 2024</p></div>
+          <div class="stat reveal d1"><div class="num">$130B+</div><p>in DeFi TVL exposed today</p></div>
+          <div class="stat reveal d2"><div class="num">$75–250K</div><p>per audit, weeks of waiting, still not enough capacity</p></div>
+        </div>
+        <p class="copy reveal" style="margin-top:2.5rem">The audit market has grown 8x since 2020 and still can't keep pace. Manual review doesn't scale to the speed of crypto — and every protocol shipping today is competing for the same backlog of overworked auditors.</p>
+      </div>
+    </section>
+
+    <section class="section" id="track-record">
+      <div class="wrap">
+        <div class="kicker"><i>//</i> Track Record</div>
+        <h2 class="h-section">Proven in the arena.</h2>
+        <div class="cards-3">
+          <article class="record reveal"><strong>7</strong><span class="label">Top-10 Finishes</span><p>Including two 1st-place finishes in public audit contests</p></article>
+          <article class="record reveal d1"><strong>100+</strong><span class="label">Audit Findings</span><p>Confirmed contest findings across live protocols</p></article>
+          <article class="record reveal d2"><strong>T25</strong><span class="label">HackenProof Ranking</span><p>All-time leaderboard, multiple paid bounty reports</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="team">
+      <div class="wrap team">
+        <div>
+          <div class="kicker"><i>//</i> Team</div>
+          <h2 class="h-section">Built by researchers who've found these bugs by hand.</h2>
+          <p class="copy">Two founders, both Lead Security Researchers at Certora and Spearbit, both alumni of Trail of Bits. The patterns they spent years finding by hand are embedded into how Zero Cool's agents reason today.</p>
+          <a class="text-link" href="about.html">Read full bios <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="person-list">
+          <article class="person reveal">
+            <div class="avatar">RH</div>
+            <div>
+              <div class="who"><h3>Richie Humphrey</h3><a href="https://github.com/devtooligan" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://x.com/devtooligan" target="_blank" rel="noopener noreferrer">@devtooligan</a></div>
+              <p class="role">Co-founder, Research Lead</p>
+              <div class="chips"><span>Trail of Bits</span><span>Spearbit</span><span>Certora</span><span>Offbeat Security</span></div>
+            </div>
+          </article>
+          <article class="person reveal d1">
+            <div class="avatar">KW</div>
+            <div>
+              <div class="who"><h3>Kurt Willis</h3><a href="https://github.com/0xPhaze" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+              <p class="role">Co-founder, Technical Lead</p>
+              <div class="chips"><span>Trail of Bits</span><span>Spearbit</span><span>Certora</span><span>Fraunhofer ML</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="testimonials">
+      <div class="wrap">
+        <p class="quote reveal"><span class="qmark">“</span> I'm genuinely <span class="stroke">shocked</span> by the depth of the findings from Zero Cool. We've reached a point of no return where AI audit quality is <span class="stroke">indistinguishable from a human</span>-made one. <span class="qmark">”</span></p>
+        <div class="by">Artem Chystiakov <span>Blockstream</span></div>
+        <div style="height:3.5rem"></div>
+        <div class="kicker"><i>//</i> More Voices</div>
+        <div class="voices">
+          <article class="voice reveal"><p>It's clear you are building a very <em>powerful tool</em> that put in the wrong hands can be <em>devastating</em> for crypto.</p><div class="meta"><b>Panda</b><i></i><span>Security Researcher</span></div></article>
+          <article class="voice reveal"><p>Zero Cool helps us ship <em>safe code</em> faster &amp; cheaper. Their detection is <em>scary good</em>.</p><div class="meta"><b>@Cupojoseph</b><i></i><span>Nerite</span></div></article>
+          <article class="voice reveal"><p>Zero Cool strikes again...it's <em>very, very good</em>.</p><div class="meta"><b>Corn</b><i></i><span>Yearn Finance</span></div></article>
+          <article class="voice reveal"><p>Wow all I can say is I am thoroughly impressed by what you guys have been able to accomplish. This is by far the <em>most advanced tool</em> for cybersecurity I have ever come across!</p><div class="meta"><b>Mark Jonathas</b><i></i><span>Security Researcher</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how-it-works">
+      <div class="wrap">
+        <div class="kicker"><i>//</i> How It Works</div>
+        <h2 class="h-section">Configure. Run. Verify. Iterate.</h2>
+        <p class="copy" style="margin-bottom:3rem">Zero Cool fits into your security workflow before deployments and alongside manual audits. Run it once or run it repeatedly as your codebase evolves. Each cycle gets sharper.</p>
+        <div class="steps">
+          <article class="step reveal"><div class="badge">01</div><div><h3>Configure</h3><p>Define your scope, architecture, and threat model. Agents are tailored to your protocol's specific codebase and risk profile, not running generic checks.</p></div></article>
+          <article class="step reveal d1"><div class="badge">02</div><div><h3>Run</h3><p>Deploy autonomous agents across your smart contracts, infrastructure, and supporting code. They analyze component interactions, not just isolated functions.</p></div></article>
+          <article class="step reveal d2"><div class="badge">03</div><div><h3>Verify</h3><p>Every finding passes through multi-stage verification. Each confirmed vulnerability ships with a proof of concept. What reaches your team is actionable.</p></div></article>
+          <article class="step reveal d3"><div class="badge">04</div><div><h3>Iterate</h3><p>Rerun as your code changes. Each cycle incorporates what was learned before, making detection more relevant to your protocol's architecture over time.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="wrap">
+        <div class="kicker"><i>//</i> Features</div>
+        <h2 class="h-section">What makes the difference.</h2>
+        <div class="cards-2">
+          <article class="feature reveal"><span class="corner a"></span><span class="corner b"></span><div class="mod">MOD: 01<div class="mod-line"><span style="--w:78%"></span></div></div><h3>Catch what manual review misses</h3><p>Zero Cool's agents reason across components, trace cross-contract interactions, and surface context-dependent vulnerabilities that static tools — and often manual review — never see. The hardest bugs live in interactions; this is where Zero Cool wins.</p></article>
+          <article class="feature reveal d1"><span class="corner a"></span><span class="corner b"></span><div class="mod">MOD: 02<div class="mod-line"><span style="--w:64%"></span></div></div><h3>Every finding ships with a working proof of concept</h3><p>Confirmed vulnerabilities only. Every finding passes multi-stage verification and arrives with a working PoC, so your developers triage real exploits, not theoretical edge cases.</p></article>
+          <article class="feature reveal d2"><span class="corner a"></span><span class="corner b"></span><div class="mod">MOD: 03<div class="mod-line"><span style="--w:86%"></span></div></div><h3>Coverage that matches your attack surface</h3><p>Smart contracts, blockchain infrastructure, supporting code — language-agnostic, chain-agnostic. Security coverage that fits your real attack surface, not just the parts that are easy to scan.</p></article>
+          <article class="feature reveal d3"><span class="corner a"></span><span class="corner b"></span><div class="mod">MOD: 04<div class="mod-line"><span style="--w:52%"></span></div></div><h3>Proven against the best human auditors</h3><p>Zero Cool's track record comes from open audit contests and bug bounty programs, head-to-head with the top researchers in the field. Public, adversarial, verifiable — not curated demos or cherry-picked metrics.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="engagement">
+      <div class="wrap">
+        <div class="kicker"><i>//</i> Engagement Models</div>
+        <h2 class="h-section">How teams use Zero Cool.</h2>
+        <p class="copy" style="margin-bottom:3rem">Three modes, depending on where your protocol is. Pick one to start; most teams use Zero Cool in more than one mode over a deployment lifecycle.</p>
+        <div class="modes">
+          <article class="mode reveal"><div class="mode-top"><b>MODE 01</b><div class="mode-line"><span style="--w:70%"></span></div></div><h3>Pre-deployment</h3><p>Before mainnet, when you need exploit-grade coverage on a frozen codebase.</p><div><span class="tag" style="letter-spacing:.15em">Delivered</span><ul><li><span>+</span><span>Tailored agent configuration to your codebase and threat model</span></li><li><span>+</span><span>Autonomous review across components, contracts, and supporting code</span></li><li><span>+</span><span>Multi-stage verification on every finding</span></li><li><span>+</span><span>Working proofs of concept and a delivered report</span></li></ul></div><div class="timeline"><small>Timeline</small><b>Days, not weeks.</b></div></article>
+          <article class="mode reveal d1"><div class="mode-top"><b>MODE 02</b><div class="mode-line"><span style="--w:84%"></span></div></div><h3>Continuous coverage</h3><p>When your code is moving and you need security to keep up.</p><div><span class="tag" style="letter-spacing:.15em">Delivered</span><ul><li><span>+</span><span>Re-runs triggered on every code change</span></li><li><span>+</span><span>Agents retain context across runs, so each iteration sharpens</span></li><li><span>+</span><span>Continuous flow of verified findings, not one-shot reports</span></li><li><span>+</span><span>Direct integration with your existing review workflow</span></li></ul></div><div class="timeline"><small>Timeline</small><b>Hours per cycle.</b></div></article>
+          <article class="mode reveal d2"><div class="mode-top"><b>MODE 03</b><div class="mode-line"><span style="--w:58%"></span></div></div><h3>Alongside manual audit</h3><p>When senior researchers are already engaged and you want a second opinion.</p><div><span class="tag" style="letter-spacing:.15em">Delivered</span><ul><li><span>+</span><span>Independent verification path running in parallel</span></li><li><span>+</span><span>Widens coverage across components manual review may have skipped</span></li><li><span>+</span><span>Catches context-dependent bugs that pass code review</span></li><li><span>+</span><span>Findings cross-referenced with the manual audit team</span></li></ul></div><div class="timeline"><small>Timeline</small><b>Parallel to your audit window.</b></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="join" id="join">
+      <div data-star class="star"></div>
+      <div class="wordmark"><span>ZERO</span> <span class="out">COOL</span></div>
+      <h2>Find what others<br><em>miss</em></h2>
+      <p class="copy">For protocol teams and security leaders who want exploit-grade coverage backed by proof, not promises.</p>
+      <a class="btn btn-solid btn-lg" href="https://app.zerocool.ai/intake" target="_blank" rel="noopener noreferrer">Request a demo</a>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <span>© 2026 Zero Cool</span>
+      <nav>
+        <a href="docs.html">Docs</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="subprocessors.html">Subprocessors</a>
+        <a href="mailto:sales@zerocool.ai?subject=Demo Request">Contact</a>
+      </nav>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+  <script>
+    const star = `<svg viewBox="-100 -100 200 200" aria-hidden="true"><g fill="currentColor" stroke="currentColor" stroke-width="0.5" stroke-linejoin="round">${[0,90,180,270].map(a=>`<polygon points="0,18 13,75 0,99 -13,75" transform="rotate(${a})"></polygon>`).join("")}${[45,135,225,315].map(a=>`<polygon points="0,18 10,60 0,81 -10,60" transform="rotate(${a})"></polygon>`).join("")}${[22.5,67.5,112.5,157.5,202.5,247.5,292.5,337.5].map(a=>`<polygon points="0,18 6,54 0,68 -6,54" transform="rotate(${a})"></polygon>`).join("")}</g></svg>`;
+    document.querySelectorAll("[data-star]").forEach((el) => { el.outerHTML = star.replace("<svg ", el.className ? `<svg class="${el.className}" ` : "<svg "); });
+  </script>
+</body>
+</html>

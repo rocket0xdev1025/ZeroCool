@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DeFi Auditing — Zero Cool</title>
+  <meta name="description" content="DeFi protocols ship faster than auditors can keep up.">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <script>try{if(localStorage.getItem("zc-theme")==="light")document.documentElement.setAttribute("data-theme","light")}catch(e){}</script>
+</head>
+<body data-root="../">
+  <canvas id="plasma" class="plasma" aria-hidden="true"></canvas>
+  <div class="grain"></div>
+  <div class="vignette"></div>
+  <div class="glow"></div>
+  <header class="nav">
+    <a class="brand" href="../index.html"><span class="star" data-star></span>Zero Cool</a>
+    <div class="nav-desktop">
+      <ul class="nav-links">
+        <li class="svc" data-services>
+          <button class="svc-btn" type="button" aria-expanded="false">Services
+            <svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 4.5l3 3 3-3"/></svg>
+          </button>
+          <div class="menu">
+            <a href="../services/defi.html">DeFi</a>
+            <a href="../services/bridges.html">Bridges</a>
+            <a href="../services/l2-infrastructure.html">L2 Infrastructure</a>
+            <a href="../services/formal-verification.html">Formal Verification</a>
+          </div>
+        </li>
+        <li><a href="../index.html#engagement">Engagement</a></li>
+        <li><a href="../docs.html">Docs</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch to light theme"></button>
+        <a class="btn btn-ghost" href="https://app.zerocool.ai/intake" target="_blank" rel="noopener noreferrer">Request Demo</a>
+      </div>
+    </div>
+    <div class="nav-mobile">
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch to light theme"></button>
+      <button class="burger" type="button" data-burger aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+  <div class="mobile-panel" data-panel>
+    <a href="../services/defi.html">DeFi</a>
+    <a href="../services/bridges.html">Bridges</a>
+    <a href="../services/l2-infrastructure.html">L2 Infrastructure</a>
+    <a href="../services/formal-verification.html">Formal Verification</a>
+    <a href="../index.html#engagement">Engagement</a>
+    <a href="../docs.html">Docs</a>
+    <a href="../about.html">About</a>
+    <a href="https://app.zerocool.ai/intake" target="_blank" rel="noopener noreferrer">Request Demo</a>
+  </div>
+  <main><section class="page"><div class="wrap">
+    <div class="kicker"><i>//</i> Services / DeFi</div>
+    <h1 class="h-section">DeFi protocols ship faster than auditors can keep up.</h1>
+    <p class="lede">DeFi composability is the source of both its value and its largest attack surface. Every new protocol inherits the security assumptions of the protocols it integrates with. Every state change ripples through positions held by users you've never seen. The hardest bugs aren't in your contracts. They're in the interactions between your contracts and the ones you depend on.</p><p class="lede">Existing solutions don't keep pace. A single complex DeFi audit runs $75K to $250K and takes weeks or months. By the time a report ships, the code has moved on.</p>
+  </div></section>
+  <section class="section"><div class="wrap">
+    <div class="kicker"><i>//</i> Attack surface</div>
+    <h2 class="h-section">Where the bugs hide.</h2>
+    <div class="threats"><article class="threat reveal"><b>01</b><div><h3>Cross-contract reentrancy</h3><p>State assumptions that hold within a single function break when execution flow returns through composable callbacks. The hardest reentrancy bugs span contract boundaries.</p></div></article><article class="threat reveal"><b>02</b><div><h3>Oracle manipulation</h3><p>Flash loans, price feed staleness, and TWAP edge cases turn read-only values into attack vectors. Most oracles look correct in isolation and fail under adversarial conditions.</p></div></article><article class="threat reveal"><b>03</b><div><h3>Accounting precision</h3><p>Rounding errors, share/asset drift, and fixed-point math bugs that drain protocols slowly or all at once. Off-by-one in the wrong place is a million-dollar bug.</p></div></article><article class="threat reveal"><b>04</b><div><h3>Composability assumptions</h3><p>What happens when a protocol you integrate with pauses, upgrades, or itself gets exploited. Your security depends on assumptions you didn't write.</p></div></article><article class="threat reveal"><b>05</b><div><h3>Governance and access control</h3><p>Privileged functions, time-locked parameter changes, and emergency procedures that don't behave the way the documentation says they do.</p></div></article><article class="threat reveal"><b>06</b><div><h3>MEV and ordering</h3><p>Frontrunning, sandwich attacks, and value extracted by sequencers and searchers in ways the protocol didn't model.</p></div></article></div>
+  </div></section>
+  <section class="section"><div class="wrap">
+    <h2 class="h-section">Built by people who audited DeFi by hand.</h2>
+    <p class="copy">Both founders spent years auditing DeFi protocols by hand at Trail of Bits, Spearbit, and Certora, three of the most respected names in protocol security. Through Offbeat Security they worked with clients including Uniswap, Optimism, and zkSync. The patterns they learned in those engagements — what to look for, what to verify, what's worth digging into — are embedded into how Zero Cool's agents prioritize.</p>
+  </div></section>
+    <section class="join" id="join">
+      <div class="star" data-star></div>
+      <div class="wordmark"><span>ZERO</span> <span class="out">COOL</span></div>
+      <h2>Find what others<br><em>miss</em></h2>
+      <p class="copy">For protocol teams and security leaders who want exploit-grade coverage backed by proof, not promises.</p>
+      <a class="btn btn-solid btn-lg" href="https://app.zerocool.ai/intake" target="_blank" rel="noopener noreferrer">Request a demo</a>
+    </section>
+  </main>
+  <footer class="foot"><div class="wrap"><span>© 2026 Zero Cool</span><nav>
+    <a href="../docs.html">Docs</a>
+    <a href="../privacy.html">Privacy</a>
+    <a href="../terms.html">Terms</a>
+    <a href="../subprocessors.html">Subprocessors</a>
+    <a href="mailto:sales@zerocool.ai?subject=Demo Request">Contact</a>
+  </nav></div></footer>
+  <script src="../js/main.js"></script>
+</body>
+</html>
