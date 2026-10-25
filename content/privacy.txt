@@ -30,7 +30,7 @@ Information you provide
 
 We collect information you provide when you:
 
-Request a demo or contact us.
+Buy $ZERO or contact us.
 Create or administer an account.
 Join an organization’s workspace.
 Connect a repository, source-control account, or other integration.
