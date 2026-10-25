@@ -51,7 +51,7 @@ function page({ root, title, description, active, main }) {
       </ul>
       <div class="nav-actions">
         <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch to light theme"></button>
-        <a class="btn btn-ghost" href="https://app.zerocool.ai/intake" target="_blank" rel="noopener noreferrer">Request Demo</a>
+        <a class="btn btn-ghost" href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x34bdf88065352838f5a917ea039c8b9adecd9e78" target="_blank" rel="noopener noreferrer">Buy $ZERO</a>
       </div>
     </div>
     <div class="nav-mobile">
@@ -67,7 +67,7 @@ function page({ root, title, description, active, main }) {
     <a href="${href("index.html#engagement")}">Engagement</a>
     <a href="${href("docs.html")}">Docs</a>
     <a href="${href("about.html")}">About</a>
-    <a href="https://app.zerocool.ai/intake" target="_blank" rel="noopener noreferrer">Request Demo</a>
+    <a href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x34bdf88065352838f5a917ea039c8b9adecd9e78" target="_blank" rel="noopener noreferrer">Buy $ZERO</a>
   </div>
   <main>${main}
     <section class="join" id="join">
@@ -75,7 +75,7 @@ function page({ root, title, description, active, main }) {
       <div class="wordmark"><span>ZERO</span> <span class="out">COOL</span></div>
       <h2>Find what others<br><em>miss</em></h2>
       <p class="copy">For protocol teams and security leaders who want exploit-grade coverage backed by proof, not promises.</p>
-      <a class="btn btn-solid btn-lg" href="https://app.zerocool.ai/intake" target="_blank" rel="noopener noreferrer">Request a demo</a>
+      <a class="btn btn-solid btn-lg" href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x34bdf88065352838f5a917ea039c8b9adecd9e78" target="_blank" rel="noopener noreferrer">Request a demo</a>
     </section>
   </main>
   <footer class="foot"><div class="wrap"><span>© 2026 Zero Cool</span><nav>
@@ -83,7 +83,6 @@ function page({ root, title, description, active, main }) {
     <a href="${href("privacy.html")}">Privacy</a>
     <a href="${href("terms.html")}">Terms</a>
     <a href="${href("subprocessors.html")}">Subprocessors</a>
-    <a href="mailto:sales@zerocool.ai?subject=Demo Request">Contact</a>
   </nav></div></footer>
   <script src="${href("js/main.js")}"></script>
 </body>
@@ -216,7 +215,7 @@ const about = `<section class="page"><div class="wrap">
     <article class="person">
       <div class="avatar">RH</div>
       <div>
-        <div class="who"><h3>Richie Humphrey</h3><a href="https://github.com/devtooligan" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://x.com/devtooligan" target="_blank" rel="noopener noreferrer">@devtooligan</a></div>
+        <div class="who"><h3>Richie Humphrey</h3><a href="https://github.com/devtooligan" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://x.com/ZeroCoolAIx" target="_blank" rel="noopener noreferrer">@devtooligan</a></div>
         <p class="role">Co-founder · Research Lead</p>
         <p class="copy" style="margin-top:0.8rem">Richie met Kurt at Trail of Bits on the blockchain security team. He went on to become a Lead Security Researcher at Certora and Spearbit before co-founding Offbeat Security, a boutique audit firm with clients including Uniswap, Optimism, and zkSync.</p>
         <p class="copy">Before crypto, Richie spent his early career at Deloitte as a CPA and at Morgan Stanley in credit derivative risk management. He pivoted to web3 in 2021 and is one of the more recognized security engineers in the EVM community.</p>
