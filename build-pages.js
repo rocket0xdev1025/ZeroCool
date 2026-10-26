@@ -215,7 +215,7 @@ const about = `<section class="page"><div class="wrap">
     <article class="person">
       <div class="avatar">RH</div>
       <div>
-        <div class="who"><h3>Richie Humphrey</h3><a href="https://github.com/devtooligan" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://x.com/ZeroCoolAIx" target="_blank" rel="noopener noreferrer">@devtooligan</a></div>
+        <div class="who"><h3>Richie Humphrey</h3><a href="https://github.com/devtooligan" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://x.com/ZeroCoolAI_x" target="_blank" rel="noopener noreferrer">@devtooligan</a></div>
         <p class="role">Co-founder · Research Lead</p>
         <p class="copy" style="margin-top:0.8rem">Richie met Kurt at Trail of Bits on the blockchain security team. He went on to become a Lead Security Researcher at Certora and Spearbit before co-founding Offbeat Security, a boutique audit firm with clients including Uniswap, Optimism, and zkSync.</p>
         <p class="copy">Before crypto, Richie spent his early career at Deloitte as a CPA and at Morgan Stanley in credit derivative risk management. He pivoted to web3 in 2021 and is one of the more recognized security engineers in the EVM community.</p>
